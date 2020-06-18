@@ -1,0 +1,4 @@
+RaspberryPi:RaspberryPi!
+Homey:Homey!
+Owntracks:Owntracks!
+NodeRrenew_hook = systemctl restart mosquittoed:NodeRed!
