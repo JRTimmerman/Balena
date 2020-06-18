@@ -1,7 +1,2 @@
-FROM tobi312/rpi-nginx
-COPY ./nginx.conf /etc/nginx/nginx.conf
-
-
-
-
-
+FROM arm32v7/nginx:latest
+COPY ./app.conf /etc/nginx/conf.d/app.conf
